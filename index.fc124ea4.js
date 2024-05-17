@@ -1,0 +1,2 @@
+document.querySelectorAll("form input").forEach(function(t){var r,a=document.createElement("label");a.classList.add("field-label"),a.setAttribute("for",t.id),a.textContent=e(t.name).toUpperCase(),t.placeholder=(r=e(t.name)).charAt(0).toUpperCase()+r.slice(1).toLowerCase(),t.parentNode.insertBefore(a,t)});function e(e){return e.replace(/([A-Z])/g," $1").trim()}
+//# sourceMappingURL=index.fc124ea4.js.map
